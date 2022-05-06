@@ -24,5 +24,4 @@ public class Mapfor {
             map.remove(' ');
             System.out.println(map);
       }
-}
-
+}Yo many

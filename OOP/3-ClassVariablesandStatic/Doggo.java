@@ -2,34 +2,36 @@ import java.util.Scanner;
 
 public class Doggo {
 
-      public String name;
-      private int age;
+      /** STATIC KEYWORD
+       * Class Variables have attributes
+       * Which are specific to each instance of Dog. Each Dog will have its own age and name
+       * We can then have multiple diff object
+       * 
+       * Sometimes we want to have variables that change at one instance, changes a second instance
+       * these are Class Variables
+       */
+
+      protected static int count = 0; // Class variable protected - Static is gallowing to change all together
+      
+
+      protected String name; // instance variables
+      protected int age;
 
       public Doggo(String name, int age){ 
             this.name = name;
             this.age = age; 
-            add2();
+            Doggo.count += 1; //needs to be DOGGO because since that is a static variable does not care which instance is going to change because it changes for ALL instances
+            //this.count += 1; // will work still, but is better to call class.
+            Doggo.display_static(); // allows us to call it because is static.
+            // Doggo.display_normal(); //Error because we need an instance to call instance normal. we need a doggo beig created and calling it.@interface
       }
 
-      // new method:
-      public void speak(){
-            System.out.println("I am " + this.name + " and I am " + this.age + " Years old, Bark!");
+      public void display_normal() {
+            System.out.println("I am a nromal Doggo");
       }
 
-      // new mothod:
-      public int getAge(){
-            return this.age;
+      public static void display_static() {
+            System.out.println("I am a static Doggo");
+            // this.age; not working cause we need to call a Doggo. onrly normal instance NOT static allows it
       }
-
-      // new method: If we want to change Age
-      public void setAge(int age){
-            this.age = age;
-      }
-
-      //this is a private method. That means we can use the method only inside the Dog class
-      private int add2() {
-            return this.age + 2;
-      }
-
-
 }

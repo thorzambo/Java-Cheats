@@ -7,7 +7,7 @@ public class While {
       Scanner scanner = new Scanner(System.in);
       System.out.println("Type a number");
       int x = scanner.nextInt();
-      
+
       /** 
        * Usage 1
       */
@@ -38,5 +38,4 @@ public class While {
             x += 1;
       }
     }
-
 }

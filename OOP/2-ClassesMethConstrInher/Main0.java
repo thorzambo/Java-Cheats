@@ -1,4 +1,4 @@
-public class Main{
+public class Main0{
 
       public static void main(String[] args){
 
@@ -25,7 +25,7 @@ public class Main{
             Cat leo = new Cat("Leo", 18, "Pizza");
             leo.speak();
             leo.eat("Pollo");
-            
+
       }
 
 }

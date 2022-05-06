@@ -24,6 +24,7 @@ public class Hasmaps {
             map.values(); // get all values
             map.clear(); // clear
             map.isEmpty(); 
+            map.remove(' ');
             
             System.out.println(map);
       }

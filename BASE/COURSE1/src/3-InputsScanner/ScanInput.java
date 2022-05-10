@@ -16,5 +16,21 @@ public class ScanInput{
 
             System.out.println(x);
 
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Input Whatever you want to: ");
+            String smth = scanner.nextLine();
+
+            System.out.println("Ciao " + smth);
+
+            System.out.print("Age?: ");
+            int eta = scanner.nextInt();
+
+            scanner.nextLine(); // needed in this case cause it goes newline
+            System.out.print("Age?: ");
+            String shesh = scanner.nextLine();
+
+      }
+}
+
       }
 }

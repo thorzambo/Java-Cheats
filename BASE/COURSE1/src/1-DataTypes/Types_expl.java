@@ -1,3 +1,19 @@
+/**
+ * boolean -> true : false -> 1 bit
+ * byte -> -128 : 127 | 1 byte
+ * short -> -32768 : 32767 | 2 bytes
+ * int -> -2 bilions : 2 bilions -> 4 byte
+ * long -> -9 quintilions : 9 quintilions -> 8 bytes
+ * 
+ * flot -> nr with 6-7 decimals e.g. 5.233223f -> 4 bytes
+ * double -> nr with 15 decimals e.g. 5.238474747474747474 -> 8 bytes
+ * 
+ * char -> single character / letters / ASCII characters 'f' -> 2 bytes
+ * Strin -> Characters Sequence "blah labdhd " -> variable
+ * 
+ * difference between primitive types and reference types (initials and available metyhods)
+ */
+
 public class Types_expl {
       /* 
       * METHODS

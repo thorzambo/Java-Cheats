@@ -6,7 +6,7 @@ public class ScanInput{
 
             Scanner sc = new Scanner(System.in);
             
-            String scanned = sc.next(); // For Strings
+            //String scanned = sc.next(); // For Strings
             /*
                   int scannedint = sc.nextInt(); // For Integers
                   boolean scannedbool = sc.nextBoolean();// For Booleans
@@ -32,5 +32,4 @@ public class ScanInput{
       }
 }
 
-      }
-}
+

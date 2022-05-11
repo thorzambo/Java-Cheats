@@ -19,11 +19,23 @@ public class Arrays{
             newArrInt[3] = 4;
             newArrInt[4] = 5;
 
+            // == to int[] newArrInt = {1, 2, 3, 4, 5}
+
+            System.out.println(newArrStr.length);
+
+
             String[] newArrayStrTest = {"Ciao", "Come", "StAi", "Leo", "Thor"};
             
             // Access to Elemnts in Array
             int x = newArrInt[3];
             System.out.println(newArrayStrTest);
+
+            for (int i = 0; i < newArrInt.length; i++) {
+                  System.out.println(newArrInt[i]);
+            }
+            for (int nr : newArrInt) {
+                  System.out.println(nr);
+            }
 
       }
 }

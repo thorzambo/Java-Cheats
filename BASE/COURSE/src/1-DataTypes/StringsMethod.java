@@ -10,15 +10,13 @@ public class StringsMethod {
       public static void main(String[] args) {
 
             String name = "Leo";
-            String name_ = "Gogo";
+            String name_ = "Gogo";c
 
             System.out.println(name.equals(name_));
             System.out.println(name.equals("lEO"));
             System.out.println(name.equalsIgnoreCase("lEO"));
             System.out.println(name.length());
             System.out.println(nome.charAt(2));
-            
-
 
 
       }

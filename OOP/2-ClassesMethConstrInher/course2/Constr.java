@@ -19,4 +19,8 @@ public class Constr {
             String str = this.name + " " + this.surname + " " + this.age + " " + this.favColor;
             return str;
       }
+
+      public void hello(Constr otherPerson) {
+            System.out.println("Ciao " + otherPerson.name + ", I'm " + this.name);
+      }
 }

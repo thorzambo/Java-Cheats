@@ -37,5 +37,10 @@ public class Mainp {
                   System.out.println(persons[i]);
             }
 
+            System.out.println();
+
+            leo.hello(gianky);
+            gianky.hello(leo);
+            
       }
 }

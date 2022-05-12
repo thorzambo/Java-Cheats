@@ -51,5 +51,10 @@ public class Dog {
             return this.age + 2;
       }
 
+      public String toString(){
+            String str = this.name + " " + this.age;
+            return str;
+      }
+
 
 }

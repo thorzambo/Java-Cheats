@@ -13,6 +13,10 @@ public class Constr {
             this.favColor = favColor;
 
             System.out.println("Ciao " + name + " " + surname + " " + age + " " + favColor);
+      }
 
+      public String toString() {
+            String str = this.name + " " + this.surname + " " + this.age + " " + this.favColor;
+            return str;
       }
 }

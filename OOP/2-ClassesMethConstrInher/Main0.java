@@ -26,6 +26,7 @@ public class Main0{
             leo.speak();
             leo.eat("Pollo");
 
-      }
+            System.out.println(thor.toString());
 
+      }
 }

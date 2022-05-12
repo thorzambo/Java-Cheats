@@ -1,5 +1,5 @@
 public class MethodsFunctions {
-
+      // Methods are functions we can use over and over
       public static void main(String[] args) {
             cook("Shesh");
             System.out.println(cook("Shjesh"));

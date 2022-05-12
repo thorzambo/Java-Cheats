@@ -43,7 +43,6 @@ public class Objects {
        * 
        */
 
-
       public static void main(String[] args) { // This is a specific method which runs whenever we run the program
 
             String h = "hello";

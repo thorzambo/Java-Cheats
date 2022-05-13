@@ -6,5 +6,9 @@ public class Teacher extends Person {
       Teacher(String name, String surname) {
             super(name, surname);
       }
+
+      public void hello() {
+            System.out.println("Goodmorning Guys");
+      }
 }
 

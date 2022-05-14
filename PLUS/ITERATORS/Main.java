@@ -18,6 +18,14 @@ public class Main {
 
         while(personsIt.hasNext()) {
             System.out.println(personsIt.next());
+            String person = personsIt.next();
+            if(person == ("fhfhd")) {
+                personsIt.remove();
+            }
+        }
+        System.out.println(persons);
+        for(String person : persons){
+            System.out.print(person + " ");
         }
     }
 }

@@ -1,4 +1,8 @@
-public class Car implements Vehicle {
+/**
+ * IMPLEMENTS
+ */
+
+class Car implements Vehicle {
 
       private int gear = 0;
       private int speed = 0;

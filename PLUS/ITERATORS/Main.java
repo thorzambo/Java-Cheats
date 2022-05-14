@@ -1,5 +1,7 @@
 import java.util.*;
-
+    /**
+     * Helps Cycling collections of datas like Arrays
+     */
 public class Main {
     
     public static void main(String[] args) {
@@ -9,7 +11,13 @@ public class Main {
         persons.add("ubchua");
 
         Iterator<String> personsIt = persons.iterator();
-        
+
         System.out.println(personsIt);
+        System.out.println(personsIt.hasNext());
+        System.out.println(personsIt.next());
+
+        while(personsIt.hasNext()) {
+            System.out.println(personsIt.next());
+        }
     }
 }

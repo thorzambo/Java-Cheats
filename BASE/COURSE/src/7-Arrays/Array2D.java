@@ -25,6 +25,7 @@ public class Array2D {
             classes[2][3] = "Aghe";
 
             System.out.println(classes[2][0]);
+            System.out.println(clases.length);
 
             for (int class_ = 0; class_ < classes.length; class_++) {
                   System.out.println();

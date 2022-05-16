@@ -8,9 +8,9 @@ public class Reservation {
       if (count < 1 || count > 8) {
         System.out.println("Invalid reservation!");
       }
-      guestCount = count;
-          restaurantCapacity = capacity;
-          isRestaurantOpen = open;
+        guestCount = count;
+        restaurantCapacity = capacity;
+        isRestaurantOpen = open;
     }  
     
     public void confirmReservation() {
